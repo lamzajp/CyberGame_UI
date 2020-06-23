@@ -51,19 +51,19 @@ SpriteAtlas:
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
-      enableTightPacking: 1
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 9ebdde2ee4cda3544a1c1add75bd225c, type: 3}
-    totalSpriteSurfaceArea: 3625036
+    totalSpriteSurfaceArea: 5728416
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: cae2e0008fcaf1540b1bfa936aa78507, type: 3}
   - {fileID: 21300000, guid: f22b7a10d149c774d925c41bb61bbf95, type: 3}
   - {fileID: 21300000, guid: bd64c2500f9945f4d961b25784352fe0, type: 3}
   - {fileID: 21300000, guid: 4b76166089d782d418f1d83d79468349, type: 3}
   - {fileID: 21300000, guid: 7bb58b707dc510f4bb8e3e87e13dc84f, type: 3}
+  - {fileID: 21300000, guid: 3633dba0eacbdc445aef810f753a103d, type: 3}
   - {fileID: 21300000, guid: b3cb6051e6f0b984daf00367aa84eb99, type: 3}
   - {fileID: 21300000, guid: 2b51237101b674647bd1114ef01da8f1, type: 3}
   - {fileID: 21300000, guid: e39b9a32e228f784c99c9000302dc7ef, type: 3}
@@ -74,7 +74,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7a6f7f3320456e74382faad7784e8a6c, type: 3}
   - {fileID: 21300000, guid: d037d753f5d795d488aa85e95252ca77, type: 3}
   - {fileID: 21300000, guid: 2e476d534c8264e4da377bf3e9b8e2e0, type: 3}
-  - {fileID: 21300000, guid: 0ec928734b1a7624aa8277cc1ec1d121, type: 3}
   - {fileID: 21300000, guid: 3f2c6cf3fd74fb546b6b3da90e341177, type: 3}
   - {fileID: 21300000, guid: 5f5693844ca17b7438d7c3def1931328, type: 3}
   - {fileID: 21300000, guid: 83af80b4753085545809a53223774809, type: 3}
@@ -83,6 +82,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7b268a754ebac68448d9eb961cdb0521, type: 3}
   - {fileID: 21300000, guid: 825fed85b0cbb894e8d233ecf76a32f9, type: 3}
   - {fileID: 21300000, guid: a05570c547ea6c04baf7a2193124e6d0, type: 3}
+  - {fileID: 21300000, guid: e314b0a6b1bcad544bb52898c8788ab9, type: 3}
   - {fileID: 21300000, guid: 69bfdfa6d128fd849911ba7725ba796c, type: 3}
   - {fileID: 21300000, guid: c3ed85c6a049bf646b00753a0551057f, type: 3}
   - {fileID: 21300000, guid: 9ce202173a5e6184bb54d52402de1109, type: 3}
@@ -101,15 +101,16 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9dbcfbda4de38634c98d5c5a8983fa58, type: 3}
   - {fileID: 21300000, guid: 437be80bc26d0cf488860451bce1cd33, type: 3}
   - {fileID: 21300000, guid: 9fa5854b35ca07c439e2e937b6a37802, type: 3}
+  - {fileID: 21300000, guid: 5ab87b6be0f53094d9ebfa88fed4352b, type: 3}
   - {fileID: 21300000, guid: 59b9678ba8dfc334e9ff63182b4fa81a, type: 3}
   - {fileID: 21300000, guid: 1116b8bbaf38e404f89a009810e168aa, type: 3}
   - {fileID: 21300000, guid: a66d7ccb81cea154780b3470adb0ffd5, type: 3}
   - {fileID: 21300000, guid: 6e23fdcb911603f4a9f4f3ad6f94b4c2, type: 3}
+  - {fileID: 21300000, guid: bd9be21c08d513f468b1654840b3bd9a, type: 3}
   - {fileID: 21300000, guid: 9a37f66c10400374c91bb6db0cb3ab34, type: 3}
   - {fileID: 21300000, guid: 3ea9e27c7771cbf469e688a55028e185, type: 3}
   - {fileID: 21300000, guid: 187cca7c95d5c614badf7cdab2c075c8, type: 3}
   - {fileID: 21300000, guid: 50bfae7cbe3db6f4c8bf7d2236081b07, type: 3}
-  - {fileID: 21300000, guid: 056e1fbc7c4a4cd4da6ea4aec29fca0c, type: 3}
   - {fileID: 21300000, guid: c491210d212f3ef42bad5b46bd5ed67a, type: 3}
   - {fileID: 21300000, guid: 6dfffb2d5bc9e4842bfc9af128efd569, type: 3}
   - {fileID: 21300000, guid: 0e7fa15dec29eb1449f4833a050b42a0, type: 3}
@@ -130,11 +131,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ed5bb4dfee32104438022ac2780f863e, type: 3}
   - {fileID: 21300000, guid: d2faf1efc4b8ced4e85a04204e550f75, type: 3}
   m_PackedSpriteNamesToIndex:
-  - RightMenuPanel_Middle&Right
   - EventPanel_Right
   - TopMenuPanel_Left
   - WeaponChange_Label
   - Stamina_Icon
+  - LeftMenuPanel_Middle
   - InfoLine_Right
   - Menu_BtnIcon
   - MenuPanel
@@ -145,7 +146,6 @@ SpriteAtlas:
   - CharacterPanel_Left
   - WeaponPanel_Right
   - ExpBG_Middle
-  - LeftMenuPanel
   - Avatar_Base
   - WeaponPanel_Middle
   - TopMenuPanel_Left_2
@@ -154,6 +154,7 @@ SpriteAtlas:
   - BattleBtn_Pressed
   - TopMenuPanel_Right
   - Dummy_Character
+  - LeftMenuPanel_Left
   - Txt_EquipmentImg
   - ExpBG_Left
   - InfoLine_Middle
@@ -172,15 +173,16 @@ SpriteAtlas:
   - Txt_EmailImg
   - Plus_BtnIcon
   - Gem_Icon
+  - RightMenuPanel
   - EventPanel_Middle
   - DefIcon
   - RightMenuPanel_Lighting
   - Potch
+  - LeftMenuPanel_Right
   - Txt_NoticeImg
   - CharacterInfoPanel_Middle
   - CharacterInfoPanel_Left
   - CharacterNamePanel_Left
-  - RightMenuPanel_Left
   - EventNetvigation_On
   - Arrow_Left
   - EventPanel_Left
