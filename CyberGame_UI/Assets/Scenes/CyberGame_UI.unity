@@ -3151,6 +3151,7 @@ GameObject:
   - component: {fileID: 315704444}
   - component: {fileID: 315704443}
   - component: {fileID: 315704442}
+  - component: {fileID: 315704446}
   m_Layer: 5
   m_Name: UnitBtn
   m_TagString: Untagged
@@ -3241,7 +3242,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 315704444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 315704446}
+        m_MethodName: SceneMoveMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &315704444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3279,6 +3291,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315704440}
   m_CullTransparentMesh: 0
+--- !u!114 &315704446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315704440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497e8bd5c624a424a8f31f5b07e11b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade_end: {fileID: 1077599834566471983, guid: 0fb904b4fa95cd549b9f3058944173f6,
+    type: 3}
 --- !u!1 &324499585
 GameObject:
   m_ObjectHideFlags: 0
@@ -13241,6 +13267,7 @@ GameObject:
   - component: {fileID: 1131928825}
   - component: {fileID: 1131928824}
   - component: {fileID: 1131928823}
+  - component: {fileID: 1131928826}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -13313,6 +13340,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131928826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131928822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c065851a89a4242932c5cb624e0a73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade_start: {fileID: 5557600543214562701, guid: d937bd613420841478bcc3db7b293544,
+    type: 3}
 --- !u!1 &1134054502
 GameObject:
   m_ObjectHideFlags: 0
@@ -25258,6 +25299,7 @@ GameObject:
   - component: {fileID: 1498839629}
   - component: {fileID: 1498839628}
   - component: {fileID: 1498839627}
+  - component: {fileID: 1498839631}
   m_Layer: 5
   m_Name: EquipmentBtn
   m_TagString: Untagged
@@ -25348,7 +25390,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1498839629}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1498839631}
+        m_MethodName: SceneMoveMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1498839629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25386,6 +25439,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498839625}
   m_CullTransparentMesh: 0
+--- !u!114 &1498839631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498839625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497e8bd5c624a424a8f31f5b07e11b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade_end: {fileID: 1077599834566471983, guid: 0fb904b4fa95cd549b9f3058944173f6,
+    type: 3}
 --- !u!1 &1499024026
 GameObject:
   m_ObjectHideFlags: 0
@@ -27138,6 +27205,7 @@ GameObject:
   - component: {fileID: 1757759731}
   - component: {fileID: 1757759730}
   - component: {fileID: 1757759729}
+  - component: {fileID: 1757759733}
   m_Layer: 5
   m_Name: ShopBtn
   m_TagString: Untagged
@@ -27228,7 +27296,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1757759731}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1757759733}
+        m_MethodName: SceneMoveMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1757759731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27266,6 +27345,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757759727}
   m_CullTransparentMesh: 0
+--- !u!114 &1757759733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757759727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497e8bd5c624a424a8f31f5b07e11b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade_end: {fileID: 1077599834566471983, guid: 0fb904b4fa95cd549b9f3058944173f6,
+    type: 3}
 --- !u!1 &1761671239
 GameObject:
   m_ObjectHideFlags: 0
@@ -28299,6 +28392,7 @@ GameObject:
   - component: {fileID: 1924703811}
   - component: {fileID: 1924703810}
   - component: {fileID: 1924703809}
+  - component: {fileID: 1924703813}
   m_Layer: 5
   m_Name: BattleBtn
   m_TagString: Untagged
@@ -28389,7 +28483,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1924703811}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1924703813}
+        m_MethodName: SceneMoveMethod
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1924703811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28427,6 +28532,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924703807}
   m_CullTransparentMesh: 0
+--- !u!114 &1924703813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924703807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497e8bd5c624a424a8f31f5b07e11b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade_end: {fileID: 1077599834566471983, guid: 0fb904b4fa95cd549b9f3058944173f6,
+    type: 3}
 --- !u!1 &1975884236
 GameObject:
   m_ObjectHideFlags: 0
