@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CyberGame_Shop.unity
-    guid: befe754cebd31dd4398acb1d452c5990
-  - enabled: 1
     path: Assets/Scenes/CyberGame_UI.unity
     guid: ad80681d0e1c8104d980c798061515ec
+  - enabled: 1
+    path: Assets/Scenes/CyberGame_Shop.unity
+    guid: befe754cebd31dd4398acb1d452c5990
   m_configObjects: {}
