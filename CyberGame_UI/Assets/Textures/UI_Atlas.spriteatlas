@@ -55,7 +55,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3d71677c3dab67848a6db9eddb30861b, type: 3}
-    totalSpriteSurfaceArea: 1505500
+    totalSpriteSurfaceArea: 1531336
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -74,6 +74,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d037d753f5d795d488aa85e95252ca77, type: 3}
   - {fileID: 21300000, guid: 2e476d534c8264e4da377bf3e9b8e2e0, type: 3}
   - {fileID: 21300000, guid: 3f2c6cf3fd74fb546b6b3da90e341177, type: 3}
+  - {fileID: 21300000, guid: bb925d0414d76a34fb87732bfc5f7fe0, type: 3}
   - {fileID: 21300000, guid: 5f5693844ca17b7438d7c3def1931328, type: 3}
   - {fileID: 21300000, guid: 83af80b4753085545809a53223774809, type: 3}
   - {fileID: 21300000, guid: b61647e41bde13a4b85c8c3378be86d3, type: 3}
@@ -86,6 +87,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9ce202173a5e6184bb54d52402de1109, type: 3}
   - {fileID: 21300000, guid: bc20e6474ea34354bb438c7fc98a21eb, type: 3}
   - {fileID: 21300000, guid: 1be1bc77435e08043b21db10a60f78ff, type: 3}
+  - {fileID: 21300000, guid: c1d0aaa7644ad3e4183034006c60845a, type: 3}
   - {fileID: 21300000, guid: 502c3218f7c75b14f807bdb3c795dac7, type: 3}
   - {fileID: 21300000, guid: e5eb8128ca82f4a4ebaa3b7f650ed80b, type: 3}
   - {fileID: 21300000, guid: 4e4444a820ebe1548a518122efd296d8, type: 3}
@@ -93,6 +95,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 58d561c8904a2ae46959f12a225a00f7, type: 3}
   - {fileID: 21300000, guid: 65c453d85c2c02b4dba31d0956cc9d9b, type: 3}
   - {fileID: 21300000, guid: 67d0b389b0e71e048820f642777bc4d7, type: 3}
+  - {fileID: 21300000, guid: 463ff90ac05a5cf44ac1753bd521a856, type: 3}
   - {fileID: 21300000, guid: 5f105a8a3d106d44980d0e6bcfc64d86, type: 3}
   - {fileID: 21300000, guid: 2ff33f9a8f2a7b647b4fd81bc0cc7a7a, type: 3}
   - {fileID: 21300000, guid: 19a9e9da48d7ca040a40210861c2099b, type: 3}
@@ -102,6 +105,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9fa5854b35ca07c439e2e937b6a37802, type: 3}
   - {fileID: 21300000, guid: 5ab87b6be0f53094d9ebfa88fed4352b, type: 3}
   - {fileID: 21300000, guid: 59b9678ba8dfc334e9ff63182b4fa81a, type: 3}
+  - {fileID: 21300000, guid: 6ef010abcdbc55143b611ee56e64fad3, type: 3}
   - {fileID: 21300000, guid: 1116b8bbaf38e404f89a009810e168aa, type: 3}
   - {fileID: 21300000, guid: a66d7ccb81cea154780b3470adb0ffd5, type: 3}
   - {fileID: 21300000, guid: 6e23fdcb911603f4a9f4f3ad6f94b4c2, type: 3}
@@ -140,6 +144,7 @@ SpriteAtlas:
   - WeaponPanel_Right
   - ExpBG_Middle
   - Avatar_Base
+  - BackPanel
   - WeaponPanel_Middle
   - TopMenuPanel_Left_2
   - Mission_BtnIcon
@@ -152,6 +157,7 @@ SpriteAtlas:
   - InfoLine_Middle
   - TopMenuLine
   - EventBanner_01
+  - Txt_BackImg
   - CharacterNamePanel_Right
   - WeaponIcon_01
   - ExpBG_Right
@@ -159,6 +165,7 @@ SpriteAtlas:
   - WeaponShape
   - Email_BtnIcon
   - CharacterPanel_Right
+  - BackIcon
   - BattleBtn_Default
   - Txt_MissionImg
   - InfoLine_Left
@@ -168,6 +175,7 @@ SpriteAtlas:
   - Gem_Icon
   - RightMenuPanel
   - EventPanel_Middle
+  - BackPanel_Lighting
   - DefIcon
   - RightMenuPanel_Lighting
   - Potch
