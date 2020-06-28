@@ -74,6 +74,7 @@ public class SceneMoveScript : MonoBehaviour
                 Debug.Log("Battle");
 
                 break;
+
             default:
 
                 Debug.Log("Default");
