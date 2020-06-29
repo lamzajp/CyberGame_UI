@@ -55,7 +55,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3d71677c3dab67848a6db9eddb30861b, type: 3}
-    totalSpriteSurfaceArea: 2662514
+    totalSpriteSurfaceArea: 2610386
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -156,6 +156,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c491210d212f3ef42bad5b46bd5ed67a, type: 3}
   - {fileID: 21300000, guid: ee5ed51d97fec1545b1ee866bd22932d, type: 3}
   - {fileID: 21300000, guid: 6dfffb2d5bc9e4842bfc9af128efd569, type: 3}
+  - {fileID: 21300000, guid: f740a03d567cad644b38417496e2dbc3, type: 3}
   - {fileID: 21300000, guid: 0e7fa15dec29eb1449f4833a050b42a0, type: 3}
   - {fileID: 21300000, guid: 8ad7995debd64a9418d332e17f86fef0, type: 3}
   - {fileID: 21300000, guid: c905868df6c9e7841b047e4ee95ce386, type: 3}
@@ -269,6 +270,7 @@ SpriteAtlas:
   - EventNetvigation_On
   - Txt_EquipmentImg
   - Arrow_Left
+  - CharacterStatusHeader
   - EventPanel_Left
   - MenuShape
   - BuyBtn_Default
